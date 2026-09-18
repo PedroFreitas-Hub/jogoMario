@@ -35,10 +35,8 @@
 .clouds {
     position: absolute;
     top: 50px;
-    left: 0;
     width: 550px;
-    height: auto;
-    animation: moveClouds 30s linear infinite;
+    animation: cloudsAnimation 5s linear infinite;
 }
 
 @keyframes movePipe {
